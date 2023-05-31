@@ -1,7 +1,7 @@
 # bkp-and-visibility
 ## Barrett Kok protocol with non-overlapping modes
 
-The Barrett Kok protocol can establish entanglement between two qubits even given noisy or lossy channels. In the protocol, Alice and Bob each entangle their qubit with a photon, and each emit the photon towards a beamsplitter. The experimenter post-selects on detection of one or more photons from the output ports of the beamsplitter. Alice and Bob then each apply an X gate to their qubits, entangle with another photon, and again emit towards the input ports of a beamsplitter. The final entangled state, again post-selecting on detection of one or more photons, will be a fully entangled state shared between Alice and Bob. This notebook plots anticipated fidelity of the final Bell state when the mode overlap $\mu$ for the two modes interfering in the beamsplitter during each round is not necessarily 1. $\uparrow$
+The Barrett Kok protocol can establish entanglement between two qubits even given noisy or lossy channels. In the protocol, Alice and Bob each entangle their qubit with a photon, and each emit the photon towards a beamsplitter. The experimenter post-selects on detection of one or more photons from the output ports of the beamsplitter. Alice and Bob then each apply an X gate to their qubits, entangle with another photon, and again emit towards the input ports of a beamsplitter. The final entangled state, again post-selecting on detection of one or more photons, will be a fully entangled state shared between Alice and Bob. This notebook plots anticipated fidelity of the final Bell state when the mode overlap $\mu$ for the two modes interfering in the beamsplitter during each round is not necessarily 1. 
 
 
 ## Probabilities of each outcome on each round
