@@ -5,14 +5,14 @@ The Barrett Kok protocol can establish entanglement between two qubits even give
 
 
 ## Probabilities of each outcome on each round
-Below is a flow chart of the probabilities of each measurement outcome for each round, given a visibility of 1. In this case, the two modes will never not bunch when leaving the beamsplitter (hence probability of measuring 11 is 0). When we post-select against the outcome of 00, we'll always end up measuring either 10 or 01 (and the final shared state between Alice and Bob will be (1/sqrt(2)) (|e up> +/- |up e>)). 
+Below is a flow chart of the probabilities of each measurement outcome for each round, given a visibility of 1. In this case, the two modes will never not bunch when leaving the beamsplitter (hence probability of measuring 11 is 0). When we post-select against the outcome of 00, we'll always end up measuring either 10 or 01 (and the final shared state between Alice and Bob will be $(1/\sqrt{2}) (|e\uparrow> \pm |\uparrow e>)$. 
 
 <img src="imgs/BKP.png" width = "600">
 
 When $\mu$ is not necessarily 1, we now have a non-zero probability that the two modes may exit different ports of the beamsplitter. However, given this does happen, the measurement during round 2 will always be 00, which we post-select against. Somewhat counter-intuitively then, we still end up measuring either 10 or 01 on the final round. 
 <img src="imgs/BKP2.png" width = "600">
 
-However, the final shared state between Alice and Bob will not be exactly (1/sqrt(2)) (|e up> +/- |up e>)) in the case where visibility is not 1. Below is a plot of the fidelity of the final shared state between Alice and Bob vs mode overlap. 
+However, the final shared state between Alice and Bob will not be exactly $(1/\sqrt{2}) (|e\uparrow> \pm |\uparrow e>)$.  in the case where visibility is not 1. Below is a plot of the fidelity of the final shared state between Alice and Bob vs mode overlap. 
 
 <img src="imgs/fidelitymu.png" width = "500">
 
